@@ -27,7 +27,7 @@ void Scene::Update()
 	//–À˜H‚ğ¶¬
 	m_maze.Update();
 	m_player.Update();
-	m_hit.Block();
+	//m_hit.Block();
 
 	if (GetAsyncKeyState(VK_SPACE) & 0x8000)
 	{

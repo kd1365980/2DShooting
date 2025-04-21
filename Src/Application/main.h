@@ -9,7 +9,7 @@ class Application
 {
 // メンバ
 public:
-
+	int m_test=0;
 	// アプリケーション実行
 	void Execute();
 
@@ -30,7 +30,7 @@ public:
 
 
 private:
-
+	
 	// アプリケーション初期化
 	bool Init(int w, int h);
 
